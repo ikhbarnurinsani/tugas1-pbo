@@ -45,7 +45,7 @@ class App
                         echo "bangun datar: " . PHP_EOL;
                         echo "  persegi \t\tMembuat pola persegi" . PHP_EOL;
                         echo "  persegi panjang \tMembuat pola persegi panjang" . PHP_EOL;
-                        echo "  segitiga \t\tMembuat pola persegi" . PHP_EOL . PHP_EOL;
+                        echo "  segitiga \t\tMembuat pola segitiga" . PHP_EOL . PHP_EOL;
                         echo "opsional: " . PHP_EOL;
                         echo "  persegi [sisi] [pola]" . PHP_EOL;
                         echo "  persegi panjang [panjang] [lebar] [pola]" . PHP_EOL;
