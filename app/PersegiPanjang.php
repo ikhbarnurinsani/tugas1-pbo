@@ -15,8 +15,8 @@ class PersegiPanjang extends BangunDatar
     public function buatBangunDatar($pola = '*')
     {
         echo PHP_EOL;
-        for ($i = 0; $i < $this->panjang; $i++) {
-            for ($j = 0; $j < $this->lebar; $j++) {
+        for ($i = 0; $i < $this->lebar; $i++) {
+            for ($j = 0; $j < $this->panjang; $j++) {
                 echo $pola . ' ';
             }
             echo PHP_EOL;
