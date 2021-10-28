@@ -45,7 +45,7 @@ cara penggunaan:
 bangun datar: 
   persegi               Membuat pola persegi
   persegi panjang       Membuat pola persegi panjang
-  segitiga              Membuat pola persegi
+  segitiga              Membuat pola segitiga
 
 opsional: 
   persegi [sisi] [pola]
