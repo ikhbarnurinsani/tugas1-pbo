@@ -22,15 +22,8 @@ class App
                         break;
                     case 'persegi-panjang':
                         $this->persegiPanjang = new PersegiPanjang(
-                            isset($argv[3]) ? $argv[3] : 4,
-                            isset($argv[4]) ? $argv[4] : 8
-                        );
-                        $this->persegiPanjang->buatBangunDatar(isset($argv[5]) ? $argv[5] : '*');
-                        break;
-                    case 'persegi-panjang':
-                        $this->persegiPanjang = new PersegiPanjang(
-                            isset($argv[3]) ? $argv[3] : 4,
-                            isset($argv[4]) ? $argv[4] : 8
+                            isset($argv[3]) ? $argv[3] : 8,
+                            isset($argv[4]) ? $argv[4] : 4
                         );
                         $this->persegiPanjang->buatBangunDatar(isset($argv[5]) ? $argv[5] : '*');
                         break;
